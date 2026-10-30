@@ -1,0 +1,40 @@
+{
+  "config": {
+    "minimum_anchors": 3,
+    "relative_tolerance": 1e-10
+  },
+  "gate": "BET-3",
+  "pass": true,
+  "rows": [
+    {
+      "J": 0.36147201061979195,
+      "anchor": "cubic-5-point",
+      "chi2": 0.5001853577330309,
+      "deficit_direct": 0.06935667355661945,
+      "deficit_price": 0.06935667355661944,
+      "kappa": 0.7226761140271607,
+      "relative_error": 2.7745290007512762e-17,
+      "theta": 0.18
+    },
+    {
+      "J": 0.04921928676684305,
+      "anchor": "threshold-5-point",
+      "chi2": 0.07573049774828886,
+      "deficit_direct": 0.013255605490722903,
+      "deficit_price": 0.013255605490722903,
+      "kappa": 0.6499268885097902,
+      "relative_error": 0.0,
+      "theta": 0.55
+    },
+    {
+      "J": 0.184759634808106,
+      "anchor": "sinusoidal-6-point",
+      "chi2": 0.3117835324264674,
+      "deficit_direct": 0.0635119488091807,
+      "deficit_price": 0.06351194880918068,
+      "kappa": 0.5925894590076872,
+      "relative_error": 4.4510971120924944e-17,
+      "theta": -0.8
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "frozen_at": "2026-07-16T00:00:00+03:00",
+  "seed": 2026,
+  "alpha": 0.05,
+  "scale_horizons": [100, 300, 1000, 3000, 10000],
+  "BET-1": {
+    "laws": ["gaussian", "gamma2", "lognormal04", "skew_mixture", "pareto5"],
+    "replications": 3000,
+    "horizon": 10000,
+    "batch": 100,
+    "cp_upper_max": 0.07
+  },
+  "BET-2": {
+    "laws": ["gaussian", "gamma2", "lognormal04", "skew_mixture"],
+    "replications": 16,
+    "checkpoints": [100, 1000, 10000],
+    "grid_points": 161,
+    "grid_se_radius": 10.0,
+    "asymmetric_ratio_tolerance": 0.15,
+    "gaussian_degradation_max": 0.05
+  },
+  "BET-3": {
+    "relative_tolerance": 1e-10,
+    "minimum_anchors": 3
+  },
+  "BET-4": {
+    "laws": ["gaussian", "gamma2", "lognormal04", "skew_mixture"],
+    "signals": [0.02, 0.05, 0.1, 0.2, 0.4, 0.7],
+    "mc_size": 300000,
+    "local_relative_error_max": 0.10
+  },
+  "BET-5": {
+    "laws": ["ziln_p25", "ziln_p60"],
+    "signals": [0.08, 0.12, 0.18],
+    "replications": 2000,
+    "horizon": 10000,
+    "batch": 100,
+    "required_median_gain": 0.15
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "symbolic_identities": true,
+  "brute_force_instances": 2000,
+  "max_abs_error": 5.005227149967872e-07,
+  "tolerance": 1e-05,
+  "pass": true
+}

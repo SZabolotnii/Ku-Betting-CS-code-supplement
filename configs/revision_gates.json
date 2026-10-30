@@ -1,0 +1,42 @@
+{
+  "protocol": "Supplementary experiments specified after the main study",
+  "note_protocol": "Descriptive label corrected on 2026-10-31; no parameter changed.",
+  "status": "frozen before first formal run; not part of the original BET preregistration",
+  "frozen_at": "2026-07-16T18:00:00+03:00",
+  "seed": 20260716,
+  "alpha": 0.05,
+  "scale_horizons": [100, 300, 1000, 3000, 10000],
+  "REV-MISSPEC": {
+    "laws": ["gaussian", "gamma2", "lognormal04"],
+    "relative_errors": [-0.10, -0.05, -0.02, 0.02, 0.05, 0.10],
+    "parameters": ["variance", "mu3", "mu4"],
+    "matrix_inflation": [1.05, 1.10, 1.25],
+    "replications": 600,
+    "horizon": 10000,
+    "batch": 50,
+    "alternative_shift": 0.12,
+    "cp_level": 0.95,
+    "note_zero_mu3": "When mu3=0, the perturbation is error*sqrt(mu4-1), the natural standardized covariance scale."
+  },
+  "REV-STRATEGY": {
+    "null_laws": ["gaussian", "gamma2", "lognormal04", "skew_mixture", "pareto5"],
+    "alternative_laws": ["ziln_p25", "ziln_p60"],
+    "signals": [0.08, 0.12, 0.18],
+    "replications": 600,
+    "horizon": 10000,
+    "batch": 50,
+    "dense_bank_size_per_sign": 15,
+    "ftrl_regularization": [10.0, 50.0, 200.0],
+    "ftrl_cap": 0.35,
+    "timing_paths": 4,
+    "timing_horizon": 1000,
+    "timing_grid_points": 81
+  },
+  "QUADRATIC-FAMILY": {
+    "c_values": [0.25, 0.5, 1.0, 2.0],
+    "eps_values": [0.08, 0.04, 0.02, 0.01],
+    "local_slope": 0.7,
+    "gauss_hermite_nodes": 120,
+    "scaled_error_max_at_smallest_eps": 0.03
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "config": {
+    "batch": 100,
+    "cp_upper_max": 0.07,
+    "horizon": 10000,
+    "laws": [
+      "gaussian",
+      "gamma2",
+      "lognormal04",
+      "skew_mixture",
+      "pareto5"
+    ],
+    "replications": 3000
+  },
+  "gate": "BET-1",
+  "pass": true,
+  "rows": [
+    {
+      "cp95_upper": 0.0531494570857275,
+      "g2": 1.0,
+      "hits": 139,
+      "law": "gaussian",
+      "pass": true,
+      "rate": 0.04633333333333333,
+      "replications": 3000
+    },
+    {
+      "cp95_upper": 0.0531494570857275,
+      "g2": 0.6000000000000001,
+      "hits": 139,
+      "law": "gamma2",
+      "pass": true,
+      "rate": 0.04633333333333333,
+      "replications": 3000
+    },
+    {
+      "cp95_upper": 0.04924298864207903,
+      "g2": 0.6677845277299033,
+      "hits": 128,
+      "law": "lognormal04",
+      "pass": true,
+      "rate": 0.042666666666666665,
+      "replications": 3000
+    },
+    {
+      "cp95_upper": 0.046394380226587595,
+      "g2": 0.8636363636363636,
+      "hits": 120,
+      "law": "skew_mixture",
+      "pass": true,
+      "rate": 0.04,
+      "replications": 3000
+    },
+    {
+      "cp95_upper": 0.033476597352530085,
+      "g2": 0.7032967032967032,
+      "hits": 84,
+      "law": "pareto5",
+      "pass": true,
+      "rate": 0.028,
+      "replications": 3000
+    }
+  ]
+}

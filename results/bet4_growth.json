@@ -1,0 +1,288 @@
+{
+  "config": {
+    "laws": [
+      "gaussian",
+      "gamma2",
+      "lognormal04",
+      "skew_mixture"
+    ],
+    "local_relative_error_max": 0.1,
+    "mc_size": 300000,
+    "signals": [
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.7
+    ]
+  },
+  "gate": "BET-4",
+  "pass": true,
+  "rows": [
+    {
+      "bound_ok": true,
+      "delta": 0.02,
+      "exact_growth": 0.00019995695234393615,
+      "law": "gaussian",
+      "local_ok": true,
+      "quadratic_growth": 0.00020004000000000002,
+      "relative_error": 0.0004151552492694519,
+      "remainder_bound": 4.275023252423671e-06,
+      "ten_percent_crossover": 0.4
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.05,
+      "exact_growth": 0.0012484073848245325,
+      "law": "gaussian",
+      "local_ok": true,
+      "quadratic_growth": 0.0012515625000000003,
+      "relative_error": 0.0025209409641690408,
+      "remainder_bound": 6.837918772141207e-05,
+      "ten_percent_crossover": 0.4
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.1,
+      "exact_growth": 0.0049753932966365745,
+      "law": "gaussian",
+      "local_ok": true,
+      "quadratic_growth": 0.005025000000000001,
+      "relative_error": 0.009871980768841056,
+      "remainder_bound": 0.0005853473754777936,
+      "ten_percent_crossover": 0.4
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.2,
+      "exact_growth": 0.019635368259565897,
+      "law": "gaussian",
+      "local_ok": true,
+      "quadratic_growth": 0.020400000000000005,
+      "relative_error": 0.037481948060495485,
+      "remainder_bound": 0.005859210062432127,
+      "ten_percent_crossover": 0.4
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.4,
+      "exact_growth": 0.07537003243271687,
+      "law": "gaussian",
+      "local_ok": true,
+      "quadratic_growth": 0.08640000000000002,
+      "relative_error": 0.12766166165836978,
+      "remainder_bound": 0.08979881107998491,
+      "ten_percent_crossover": 0.4
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.7,
+      "exact_growth": 0.21749595635955077,
+      "law": "gaussian",
+      "local_ok": true,
+      "quadratic_growth": 0.30502499999999994,
+      "relative_error": 0.28695694989082593,
+      "remainder_bound": 1.4558662270933633,
+      "ten_percent_crossover": 0.4
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.02,
+      "exact_growth": 0.00033048899035767096,
+      "law": "gamma2",
+      "local_ok": true,
+      "quadratic_growth": 0.0003295887638336718,
+      "relative_error": 0.002731362906696302,
+      "remainder_bound": 7.909072971340975e-06,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.05,
+      "exact_growth": 0.0020394875387421884,
+      "law": "gamma2",
+      "local_ok": true,
+      "quadratic_growth": 0.002025449434901121,
+      "relative_error": 0.0069308587018627014,
+      "remainder_bound": 0.00011615263299907782,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.1,
+      "exact_growth": 0.007971498317048908,
+      "law": "gamma2",
+      "local_ok": true,
+      "quadratic_growth": 0.007878595479208973,
+      "relative_error": 0.011791801988704569,
+      "remainder_bound": 0.0008494120979763291,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.2,
+      "exact_growth": 0.03007093441269037,
+      "law": "gamma2",
+      "local_ok": true,
+      "quadratic_growth": 0.029828763833671758,
+      "relative_error": 0.008118693096669332,
+      "remainder_bound": 0.005971699692001283,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.4,
+      "exact_growth": 0.10541303270784505,
+      "law": "gamma2",
+      "local_ok": true,
+      "quadratic_growth": 0.10743011066937394,
+      "relative_error": 0.018775722643874337,
+      "remainder_bound": 0.043963949200796965,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.7,
+      "exact_growth": 0.27045371680961383,
+      "law": "gamma2",
+      "local_ok": true,
+      "quadratic_growth": 0.28665824936867607,
+      "relative_error": 0.05652909900465243,
+      "remainder_bound": 0.2773542599934067,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.02,
+      "exact_growth": 0.0002977272370711769,
+      "law": "lognormal04",
+      "local_ok": true,
+      "quadratic_growth": 0.00029650986151950507,
+      "relative_error": 0.004105683181777535,
+      "remainder_bound": 7.304307846495819e-06,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.05,
+      "exact_growth": 0.001844679062793366,
+      "law": "lognormal04",
+      "local_ok": true,
+      "quadratic_growth": 0.0018257084675586347,
+      "relative_error": 0.010390812975797371,
+      "remainder_bound": 0.000107387699461575,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.1,
+      "exact_growth": 0.007250325089995434,
+      "law": "lognormal04",
+      "local_ok": true,
+      "quadratic_growth": 0.007125339951211139,
+      "relative_error": 0.01754093694337356,
+      "remainder_bound": 0.0007855904858393588,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.2,
+      "exact_growth": 0.027626685103725297,
+      "law": "lognormal04",
+      "local_ok": true,
+      "quadratic_growth": 0.02716681636113365,
+      "relative_error": 0.016927590501534077,
+      "remainder_bound": 0.005512215603993064,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.4,
+      "exact_growth": 0.0983888973256803,
+      "law": "lognormal04",
+      "local_ok": true,
+      "quadratic_growth": 0.09935744443046773,
+      "relative_error": 0.009748108059132267,
+      "remainder_bound": 0.04089539827248067,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.7,
+      "exact_growth": 0.255421704103586,
+      "law": "lognormal04",
+      "local_ok": true,
+      "quadratic_growth": 0.27197765207328006,
+      "relative_error": 0.06087245714303514,
+      "remainder_bound": 0.2764468795983667,
+      "ten_percent_crossover": null
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.02,
+      "exact_growth": 0.00023050363913210392,
+      "law": "skew_mixture",
+      "local_ok": true,
+      "quadratic_growth": 0.0002292420262809155,
+      "relative_error": 0.005503409962196071,
+      "remainder_bound": 5.251794351395366e-06,
+      "ten_percent_crossover": 0.7
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.05,
+      "exact_growth": 0.0014295202971766603,
+      "law": "skew_mixture",
+      "local_ok": true,
+      "quadratic_growth": 0.0014119066606393046,
+      "relative_error": 0.012475071496142891,
+      "remainder_bound": 7.634417080276107e-05,
+      "ten_percent_crossover": 0.7
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.1,
+      "exact_growth": 0.005632416194623919,
+      "law": "skew_mixture",
+      "local_ok": true,
+      "quadratic_growth": 0.005519814688623208,
+      "relative_error": 0.02039950838074173,
+      "remainder_bound": 0.0005539532424302312,
+      "ten_percent_crossover": 0.7
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.2,
+      "exact_growth": 0.02168066594714235,
+      "law": "skew_mixture",
+      "local_ok": true,
+      "quadratic_growth": 0.021225184175652334,
+      "relative_error": 0.021459496780833757,
+      "remainder_bound": 0.0040296855040581996,
+      "ten_percent_crossover": 0.7
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.4,
+      "exact_growth": 0.07844757799683603,
+      "law": "skew_mixture",
+      "local_ok": true,
+      "quadratic_growth": 0.08076287691399059,
+      "relative_error": 0.028667860849239682,
+      "remainder_bound": 0.04054141947162834,
+      "ten_percent_crossover": 0.7
+    },
+    {
+      "bound_ok": true,
+      "delta": 0.7,
+      "exact_growth": 0.20478375969752058,
+      "law": "skew_mixture",
+      "local_ok": true,
+      "quadratic_growth": 0.24895959609249715,
+      "relative_error": 0.17744179010703293,
+      "remainder_bound": 0.5720317190027705,
+      "ten_percent_crossover": 0.7
+    }
+  ]
+}

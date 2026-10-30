@@ -1,0 +1,78 @@
+{
+  "cap": 0.45,
+  "rows": [
+    {
+      "law": "gamma2",
+      "n_cal": 10000,
+      "max_penalty": 0.002717726460156344,
+      "cap_reached": false
+    },
+    {
+      "law": "gamma2",
+      "n_cal": 100000,
+      "max_penalty": 0.002169785506203082,
+      "cap_reached": false
+    },
+    {
+      "law": "gamma2",
+      "n_cal": 1000000,
+      "max_penalty": 0.0008945233722191776,
+      "cap_reached": false
+    },
+    {
+      "law": "lognormal04",
+      "n_cal": 10000,
+      "max_penalty": 0.0018651648479592066,
+      "cap_reached": false
+    },
+    {
+      "law": "lognormal04",
+      "n_cal": 100000,
+      "max_penalty": 0.0017209553691243408,
+      "cap_reached": false
+    },
+    {
+      "law": "lognormal04",
+      "n_cal": 1000000,
+      "max_penalty": 0.0007580609888857391,
+      "cap_reached": false
+    },
+    {
+      "law": "ziln_p60",
+      "n_cal": 10000,
+      "max_penalty": 9.903743568404637e-12,
+      "cap_reached": false
+    },
+    {
+      "law": "ziln_p60",
+      "n_cal": 100000,
+      "max_penalty": 0.0005442029002990708,
+      "cap_reached": false
+    },
+    {
+      "law": "ziln_p60",
+      "n_cal": 1000000,
+      "max_penalty": 0.0006119577454150921,
+      "cap_reached": false
+    },
+    {
+      "law": "ziln_p25",
+      "n_cal": 10000,
+      "max_penalty": 1.043641607706218e-28,
+      "cap_reached": false
+    },
+    {
+      "law": "ziln_p25",
+      "n_cal": 100000,
+      "max_penalty": 3.8427226575578333e-13,
+      "cap_reached": false
+    },
+    {
+      "law": "ziln_p25",
+      "n_cal": 1000000,
+      "max_penalty": 6.252779822030871e-13,
+      "cap_reached": false
+    }
+  ],
+  "any_cap_reached": false
+}

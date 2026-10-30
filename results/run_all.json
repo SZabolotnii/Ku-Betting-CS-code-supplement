@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "commands": [
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "pytest"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "verify_theory.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "verify_width.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "verify_stitch.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "verify_p1_close.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "experiments/bet1_validity.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "experiments/bet2_width.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "experiments/bet3_kappa.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "experiments/bet4_growth.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "experiments/bet5_ab.py"
+      ],
+      "returncode": 0
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "config": {
+    "c_values": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "eps_values": [
+      0.08,
+      0.04,
+      0.02,
+      0.01
+    ],
+    "gauss_hermite_nodes": 120,
+    "local_slope": 0.7,
+    "scaled_error_max_at_smallest_eps": 0.03
+  },
+  "gate": "QUADRATIC-FAMILY",
+  "max_scaled_error_at_smallest_eps": 0.00015153348497301544,
+  "pass": true,
+  "rows": [
+    {
+      "absolute_scaled_error": 6.463426853584031e-05,
+      "c": 0.25,
+      "eps": 0.08,
+      "growth": 0.0012795863406813704,
+      "growth_over_eps2": 0.19993536573146412,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 1.6039429750536183e-05,
+      "c": 0.25,
+      "eps": 0.04,
+      "growth": 0.00031997433691239907,
+      "growth_over_eps2": 0.19998396057024942,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 4.002461075541808e-06,
+      "c": 0.25,
+      "eps": 0.02,
+      "growth": 7.999839901556977e-05,
+      "growth_over_eps2": 0.1999959975389244,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 1.0001539845483354e-06,
+      "c": 0.25,
+      "eps": 0.01,
+      "growth": 1.9999899984601542e-05,
+      "growth_over_eps2": 0.1999989998460154,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 0.0009493850326390552,
+      "c": 0.5,
+      "eps": 0.08,
+      "growth": 0.0012860760642088897,
+      "growth_over_eps2": 0.200949385032639,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 0.00023934194036898115,
+      "c": 0.5,
+      "eps": 0.04,
+      "growth": 0.0003203829471045903,
+      "growth_over_eps2": 0.20023934194036894,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 5.995895762603287e-05,
+      "c": 0.5,
+      "eps": 0.02,
+      "growth": 8.00239835830504e-05,
+      "growth_over_eps2": 0.200059958957626,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 1.4997436332125913e-05,
+      "c": 0.5,
+      "eps": 0.01,
+      "growth": 2.0001499743633208e-05,
+      "growth_over_eps2": 0.20001499743633208,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 0.0005007818614845005,
+      "c": 1.0,
+      "eps": 0.08,
+      "growth": 0.0012832050039135005,
+      "growth_over_eps2": 0.20050078186148446,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 0.0001450894618685028,
+      "c": 1.0,
+      "eps": 0.04,
+      "growth": 0.00032023214313898953,
+      "growth_over_eps2": 0.20014508946186846,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 3.75647847641325e-05,
+      "c": 1.0,
+      "eps": 0.02,
+      "growth": 8.001502591390564e-05,
+      "growth_over_eps2": 0.2000375647847641,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 9.472747433347806e-06,
+      "c": 1.0,
+      "eps": 0.01,
+      "growth": 2.000094727474333e-05,
+      "growth_over_eps2": 0.2000094727474333,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 0.0097766617399635,
+      "c": 2.0,
+      "eps": 0.08,
+      "growth": 0.0012174293648642334,
+      "growth_over_eps2": 0.19022333826003646,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 0.0024316489556888143,
+      "c": 2.0,
+      "eps": 0.04,
+      "growth": 0.00031610936167089784,
+      "growth_over_eps2": 0.19756835104431114,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 0.0006065239392083477,
+      "c": 2.0,
+      "eps": 0.02,
+      "growth": 7.975739042431664e-05,
+      "growth_over_eps2": 0.1993934760607916,
+      "target": 0.19999999999999996
+    },
+    {
+      "absolute_scaled_error": 0.00015153348497301544,
+      "c": 2.0,
+      "eps": 0.01,
+      "growth": 1.9984846651502694e-05,
+      "growth_over_eps2": 0.19984846651502694,
+      "target": 0.19999999999999996
+    }
+  ],
+  "symbolic": {
+    "log_numerator_series": "c*u**2 - u**2/2 + u",
+    "numerator_series_matches": true,
+    "penalty_is_minus_half_v": true,
+    "second_order_penalty_after_Eu2_eq_v": "-v/2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "commands": [
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "experiments/verify_quadratic_family.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "experiments/rev_misspec.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "experiments/rev_strategy.py"
+      ],
+      "returncode": 0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "protocol": "Reference of unknown location (CAL-4)",
+  "status": "frozen before the first formal run; specified after CAL-1..CAL-3 and not part of them",
+  "frozen_at": "2026-10-30T22:56:54+02:00",
+  "note_frozen_at": "Corrected after the run from a rounded 22:57:00 to the file modification time; the formal run started at 22:56:56 and ended at 23:08:40. No other field changed.",
+  "seed": 20261030,
+  "note_pairing": "Same seed and the same random-number consumption as CAL-1/CAL-3, so every replication sees the same reference errors and the same streams; only the calibration step differs.",
+  "reference": "unknown_location",
+  "reference_location": 3.7,
+  "note_reference": "The reference record is eps + 3.7 and the analyst does not know 3.7. The region is invariant to this value up to rounding.",
+  "alpha_total": 0.05,
+  "alpha_e": 0.04,
+  "calibration_delta": 0.01,
+  "delta_split_moment": {"shift": 0.001, "crude_mu4": 0.001, "mean": 0.002, "variance": 0.002, "mu3": 0.002, "mu4": 0.002},
+  "delta_split_linear": {"shift": 0.001, "crude_mu4": 0.001, "variance_upper": 0.008},
+  "location_fraction": 0.02,
+  "crude_fraction": 0.2,
+  "note_fractions": "location_fraction chosen in a closed-form exploration (0.02, 0.05, 0.10 at N=1e5..1e7) before this file was frozen; 0.02 was best or tied in every cell.",
+  "eighth_moment_envelope_factor": 2.0,
+  "penalty_cap": 0.45,
+  "scale_horizons": [100, 300, 1000, 3000, 10000],
+  "calibration_sizes": [10000, 100000, 1000000],
+  "output_13": "cal_unknown_center_4.json",
+  "expected_cost": "Closed-form exploration predicted a loss of 1.5-2.5 percentage points of time gain at N=1e6 and 4-5 points at N=1e5 relative to a known-location reference. Reported, not gated.",
+  "CAL-1": {
+    "laws": ["gamma2", "lognormal04", "ziln_p60", "ziln_p25"],
+    "replications": 1000,
+    "horizon": 10000,
+    "cp_level": 0.95,
+    "cp_upper_max": 0.07
+  },
+  "CAL-3": {
+    "laws": ["gamma2", "lognormal04", "ziln_p60", "ziln_p25"],
+    "signals": [0.08, 0.12, 0.18],
+    "replications": 1000,
+    "horizon": 10000,
+    "gain_laws": ["gamma2", "lognormal04"],
+    "required_median_gain_at_largest_calibration": 0.15
+  }
+}

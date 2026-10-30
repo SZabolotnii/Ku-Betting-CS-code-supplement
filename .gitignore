@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+.DS_Store
+# Fermi GBM files downloaded by experiments/real_gbm.py (addresses and SHA-256 in results/real_gbm*.json)
+data/

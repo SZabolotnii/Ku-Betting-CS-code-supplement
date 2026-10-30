@@ -1,0 +1,237 @@
+{
+  "config": {
+    "batch": 100,
+    "horizon": 10000,
+    "laws": [
+      "ziln_p25",
+      "ziln_p60"
+    ],
+    "replications": 2000,
+    "required_median_gain": 0.15,
+    "signals": [
+      0.08,
+      0.12,
+      0.18
+    ]
+  },
+  "gate": "BET-5",
+  "pass": true,
+  "rows": [
+    {
+      "bootstrap95_gain": [
+        0.35702407144460124,
+        0.3965672445750787
+      ],
+      "bootstrap_replications": 2000,
+      "delta": 0.08,
+      "detection_fraction": {
+        "catoni": 1.0,
+        "linear": 1.0,
+        "polynomial": 1.0
+      },
+      "g2": 0.650506743463763,
+      "gain_at_least_15pct": true,
+      "iqr_stop": {
+        "catoni": [
+          672.75,
+          1826.25
+        ],
+        "linear": [
+          667.0,
+          1823.75
+        ],
+        "polynomial": [
+          421.0,
+          1135.5
+        ]
+      },
+      "law": "ziln_p25",
+      "median_gain_vs_linear": 0.37614297589359935,
+      "median_stop": {
+        "catoni": 1205.0,
+        "linear": 1203.0,
+        "polynomial": 750.5
+      }
+    },
+    {
+      "bootstrap95_gain": [
+        0.3498101673101673,
+        0.3908629441624365
+      ],
+      "bootstrap_replications": 2000,
+      "delta": 0.12,
+      "detection_fraction": {
+        "catoni": 1.0,
+        "linear": 1.0,
+        "polynomial": 1.0
+      },
+      "g2": 0.650506743463763,
+      "gain_at_least_15pct": true,
+      "iqr_stop": {
+        "catoni": [
+          350.75,
+          868.0
+        ],
+        "linear": [
+          349.75,
+          866.0
+        ],
+        "polynomial": [
+          219.75,
+          524.0
+        ]
+      },
+      "law": "ziln_p25",
+      "median_gain_vs_linear": 0.36823734729493895,
+      "median_stop": {
+        "catoni": 575.0,
+        "linear": 573.0,
+        "polynomial": 362.0
+      }
+    },
+    {
+      "bootstrap95_gain": [
+        0.3587786259541985,
+        0.39927642060541685
+      ],
+      "bootstrap_replications": 2000,
+      "delta": 0.18,
+      "detection_fraction": {
+        "catoni": 1.0,
+        "linear": 1.0,
+        "polynomial": 1.0
+      },
+      "g2": 0.650506743463763,
+      "gain_at_least_15pct": true,
+      "iqr_stop": {
+        "catoni": [
+          165.0,
+          382.25
+        ],
+        "linear": [
+          162.0,
+          381.0
+        ],
+        "polynomial": [
+          106.0,
+          236.0
+        ]
+      },
+      "law": "ziln_p25",
+      "median_gain_vs_linear": 0.38113207547169814,
+      "median_stop": {
+        "catoni": 267.0,
+        "linear": 265.0,
+        "polynomial": 164.0
+      }
+    },
+    {
+      "bootstrap95_gain": [
+        0.42878172082650917,
+        0.47920064841547
+      ],
+      "bootstrap_replications": 2000,
+      "delta": 0.08,
+      "detection_fraction": {
+        "catoni": 1.0,
+        "linear": 1.0,
+        "polynomial": 1.0
+      },
+      "g2": 0.5894697887884013,
+      "gain_at_least_15pct": true,
+      "iqr_stop": {
+        "catoni": [
+          564.0,
+          1710.0
+        ],
+        "linear": [
+          555.75,
+          1703.0
+        ],
+        "polynomial": [
+          317.75,
+          919.0
+        ]
+      },
+      "law": "ziln_p60",
+      "median_gain_vs_linear": 0.4578139980824545,
+      "median_stop": {
+        "catoni": 1049.5,
+        "linear": 1043.0,
+        "polynomial": 565.5
+      }
+    },
+    {
+      "bootstrap95_gain": [
+        0.42592544617156014,
+        0.4704734145910617
+      ],
+      "bootstrap_replications": 2000,
+      "delta": 0.12,
+      "detection_fraction": {
+        "catoni": 1.0,
+        "linear": 1.0,
+        "polynomial": 1.0
+      },
+      "g2": 0.5894697887884013,
+      "gain_at_least_15pct": true,
+      "iqr_stop": {
+        "catoni": [
+          273.0,
+          787.25
+        ],
+        "linear": [
+          267.75,
+          784.25
+        ],
+        "polynomial": [
+          162.0,
+          423.0
+        ]
+      },
+      "law": "ziln_p60",
+      "median_gain_vs_linear": 0.4490835030549898,
+      "median_stop": {
+        "catoni": 494.5,
+        "linear": 491.0,
+        "polynomial": 270.5
+      }
+    },
+    {
+      "bootstrap95_gain": [
+        0.375,
+        0.4147465437788018
+      ],
+      "bootstrap_replications": 2000,
+      "delta": 0.18,
+      "detection_fraction": {
+        "catoni": 1.0,
+        "linear": 1.0,
+        "polynomial": 1.0
+      },
+      "g2": 0.5894697887884013,
+      "gain_at_least_15pct": true,
+      "iqr_stop": {
+        "catoni": [
+          131.0,
+          343.0
+        ],
+        "linear": [
+          129.0,
+          341.0
+        ],
+        "polynomial": [
+          87.0,
+          188.0
+        ]
+      },
+      "law": "ziln_p60",
+      "median_gain_vs_linear": 0.38990825688073394,
+      "median_stop": {
+        "catoni": 221.5,
+        "linear": 218.0,
+        "polynomial": 133.0
+      }
+    }
+  ]
+}
