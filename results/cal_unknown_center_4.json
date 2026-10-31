@@ -11,12 +11,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.4129158512720157,
-          "median_gain_robust_vs_linear": -0.04070004070004063,
+          "median_gain_robust_vs_linear": -0.025540275049115824,
           "median_stop": {
-            "linear": 1228.5,
+            "linear": 1272.5,
             "oracle_lin": 1022.0,
             "oracle_poly": 600.0,
-            "robust": 1278.5
+            "robust": 1305.0
           }
         },
         {
@@ -28,12 +28,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3946587537091988,
-          "median_gain_robust_vs_linear": -0.04475043029259895,
+          "median_gain_robust_vs_linear": -0.030730897009966673,
           "median_stop": {
-            "linear": 581.0,
+            "linear": 602.0,
             "oracle_lin": 505.5,
             "oracle_poly": 306.0,
-            "robust": 607.0
+            "robust": 620.5
           }
         },
         {
@@ -45,12 +45,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3862660944206009,
-          "median_gain_robust_vs_linear": -0.05360443622920519,
+          "median_gain_robust_vs_linear": -0.024822695035461084,
           "median_stop": {
-            "linear": 270.5,
+            "linear": 282.0,
             "oracle_lin": 233.0,
             "oracle_poly": 143.0,
-            "robust": 285.0
+            "robust": 289.0
           }
         }
       ],
@@ -58,19 +58,19 @@
       "g2": 0.6000000000000001,
       "law": "gamma2",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.9863627097237706,
-      "median_radius": 0.1807601727046696,
+      "median_g2_bar": 0.9999999993700988,
+      "median_radius": 0.22106330110608993,
       "n_cal": 10000,
       "null": {
         "linear": {
-          "cp_upper": 0.020589286529908307,
-          "crossings": 13,
-          "rate": 0.013
+          "cp_upper": 0.019370199285059248,
+          "crossings": 12,
+          "rate": 0.012
         },
         "robust": {
-          "cp_upper": 0.016903175120562504,
-          "crossings": 10,
-          "rate": 0.01
+          "cp_upper": 0.015652573749606477,
+          "crossings": 9,
+          "rate": 0.009
         }
       },
       "region_misses": 0,
@@ -87,12 +87,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.41889985895627646,
-          "median_gain_robust_vs_linear": 0.004017857142857184,
+          "median_gain_robust_vs_linear": -0.001784121320249854,
           "median_stop": {
-            "linear": 1120.0,
+            "linear": 1121.0,
             "oracle_lin": 1063.5,
             "oracle_poly": 618.0,
-            "robust": 1115.5
+            "robust": 1123.0
           }
         },
         {
@@ -104,12 +104,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.41759352881698686,
-          "median_gain_robust_vs_linear": 0.07996146435452789,
+          "median_gain_robust_vs_linear": 0.0692307692307692,
           "median_stop": {
-            "linear": 519.0,
+            "linear": 520.0,
             "oracle_lin": 494.5,
             "oracle_poly": 288.0,
-            "robust": 477.5
+            "robust": 484.0
           }
         },
         {
@@ -121,12 +121,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3594771241830066,
-          "median_gain_robust_vs_linear": 0.08368200836820083,
+          "median_gain_robust_vs_linear": 0.06860706860706856,
           "median_stop": {
-            "linear": 239.0,
+            "linear": 240.5,
             "oracle_lin": 229.5,
             "oracle_poly": 147.0,
-            "robust": 219.0
+            "robust": 224.0
           }
         }
       ],
@@ -134,8 +134,8 @@
       "g2": 0.6000000000000001,
       "law": "gamma2",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.777116954215427,
-      "median_radius": 0.03974435779349075,
+      "median_g2_bar": 0.7928827588778832,
+      "median_radius": 0.041093332391473336,
       "n_cal": 100000,
       "null": {
         "linear": {
@@ -163,12 +163,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.4345351043643264,
-          "median_gain_robust_vs_linear": 0.2793635938231165,
+          "median_gain_robust_vs_linear": 0.27655591951333647,
           "median_stop": {
             "linear": 1068.5,
             "oracle_lin": 1054.0,
             "oracle_poly": 596.0,
-            "robust": 770.0
+            "robust": 773.0
           }
         },
         {
@@ -180,12 +180,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3867924528301887,
-          "median_gain_robust_vs_linear": 0.25672877846790887,
+          "median_gain_robust_vs_linear": 0.25465838509316774,
           "median_stop": {
             "linear": 483.0,
             "oracle_lin": 477.0,
             "oracle_poly": 292.5,
-            "robust": 359.0
+            "robust": 360.0
           }
         },
         {
@@ -210,8 +210,8 @@
       "g2": 0.6000000000000001,
       "law": "gamma2",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.6641022786604069,
-      "median_radius": 0.011006659108616701,
+      "median_g2_bar": 0.6664061210732354,
+      "median_radius": 0.011049459579464654,
       "n_cal": 1000000,
       "null": {
         "linear": {
@@ -239,12 +239,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3241534988713318,
-          "median_gain_robust_vs_linear": -0.02598828696925337,
+          "median_gain_robust_vs_linear": -0.04674220963172804,
           "median_stop": {
-            "linear": 1366.0,
+            "linear": 1412.0,
             "oracle_lin": 1107.5,
             "oracle_poly": 748.5,
-            "robust": 1401.5
+            "robust": 1478.0
           }
         },
         {
@@ -256,12 +256,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.35805084745762716,
-          "median_gain_robust_vs_linear": -0.04427083333333326,
+          "median_gain_robust_vs_linear": -0.034710743801652955,
           "median_stop": {
-            "linear": 576.0,
+            "linear": 605.0,
             "oracle_lin": 472.0,
             "oracle_poly": 303.0,
-            "robust": 601.5
+            "robust": 626.0
           }
         },
         {
@@ -273,12 +273,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.30196936542669583,
-          "median_gain_robust_vs_linear": -0.022018348623853212,
+          "median_gain_robust_vs_linear": -0.047957371225577194,
           "median_stop": {
-            "linear": 272.5,
+            "linear": 281.5,
             "oracle_lin": 228.5,
             "oracle_poly": 159.5,
-            "robust": 278.5
+            "robust": 295.0
           }
         }
       ],
@@ -286,19 +286,19 @@
       "g2": 0.6677845277299033,
       "law": "lognormal04",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.9999999993196873,
-      "median_radius": 0.20621161426051793,
+      "median_g2_bar": 0.9999999996621739,
+      "median_radius": 0.2572558295232693,
       "n_cal": 10000,
       "null": {
         "linear": {
-          "cp_upper": 0.027755286045479104,
-          "crossings": 19,
-          "rate": 0.019
+          "cp_upper": 0.02420022583124934,
+          "crossings": 16,
+          "rate": 0.016
         },
         "robust": {
-          "cp_upper": 0.025390748776180874,
-          "crossings": 17,
-          "rate": 0.017
+          "cp_upper": 0.020589286529908307,
+          "crossings": 13,
+          "rate": 0.013
         }
       },
       "region_misses": 0,
@@ -315,12 +315,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3472356935014549,
-          "median_gain_robust_vs_linear": -0.011483693155718955,
+          "median_gain_robust_vs_linear": -0.023886081763895284,
           "median_stop": {
             "linear": 1088.5,
             "oracle_lin": 1031.0,
             "oracle_poly": 673.0,
-            "robust": 1101.0
+            "robust": 1114.5
           }
         },
         {
@@ -332,12 +332,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3322751322751323,
-          "median_gain_robust_vs_linear": 0.01379310344827589,
+          "median_gain_robust_vs_linear": 0.0009803921568627416,
           "median_stop": {
-            "linear": 507.5,
+            "linear": 510.0,
             "oracle_lin": 472.5,
             "oracle_poly": 315.5,
-            "robust": 500.5
+            "robust": 509.5
           }
         },
         {
@@ -349,12 +349,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3187772925764192,
-          "median_gain_robust_vs_linear": 0.04166666666666663,
+          "median_gain_robust_vs_linear": 0.02083333333333337,
           "median_stop": {
             "linear": 240.0,
             "oracle_lin": 229.0,
             "oracle_poly": 156.0,
-            "robust": 230.0
+            "robust": 235.0
           }
         }
       ],
@@ -362,19 +362,19 @@
       "g2": 0.6677845277299033,
       "law": "lognormal04",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.8408731925776757,
-      "median_radius": 0.04290953927411917,
+      "median_g2_bar": 0.8561994353372993,
+      "median_radius": 0.044773327151160225,
       "n_cal": 100000,
       "null": {
         "linear": {
-          "cp_upper": 0.033587428098608846,
-          "crossings": 24,
-          "rate": 0.024
+          "cp_upper": 0.032428870441319126,
+          "crossings": 23,
+          "rate": 0.023
         },
         "robust": {
-          "cp_upper": 0.016903175120562504,
-          "crossings": 10,
-          "rate": 0.01
+          "cp_upper": 0.019370199285059248,
+          "crossings": 12,
+          "rate": 0.012
         }
       },
       "region_misses": 0,
@@ -391,12 +391,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3523942352394235,
-          "median_gain_robust_vs_linear": 0.19236016371077758,
+          "median_gain_robust_vs_linear": 0.18963165075034105,
           "median_stop": {
             "linear": 1099.5,
             "oracle_lin": 1075.5,
             "oracle_poly": 696.5,
-            "robust": 888.0
+            "robust": 891.0
           }
         },
         {
@@ -408,12 +408,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3278688524590164,
-          "median_gain_robust_vs_linear": 0.20260782347041129,
+          "median_gain_robust_vs_linear": 0.19959879638916755,
           "median_stop": {
             "linear": 498.5,
             "oracle_lin": 488.0,
             "oracle_poly": 328.0,
-            "robust": 397.5
+            "robust": 399.0
           }
         },
         {
@@ -425,12 +425,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3325892857142857,
-          "median_gain_robust_vs_linear": 0.21145374449339205,
+          "median_gain_robust_vs_linear": 0.20264317180616742,
           "median_stop": {
             "linear": 227.0,
             "oracle_lin": 224.0,
             "oracle_poly": 149.5,
-            "robust": 179.0
+            "robust": 181.0
           }
         }
       ],
@@ -438,8 +438,8 @@
       "g2": 0.6677845277299033,
       "law": "lognormal04",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.7327356063671172,
-      "median_radius": 0.011472935232388487,
+      "median_g2_bar": 0.7351741095194639,
+      "median_radius": 0.011535290075504634,
       "n_cal": 1000000,
       "null": {
         "linear": {
@@ -467,12 +467,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.4751655629139073,
-          "median_gain_robust_vs_linear": -0.0798110392839384,
+          "median_gain_robust_vs_linear": -0.09593147751606002,
           "median_stop": {
-            "linear": 2011.0,
+            "linear": 2335.0,
             "oracle_lin": 1208.0,
             "oracle_poly": 634.0,
-            "robust": 2171.5
+            "robust": 2559.0
           }
         },
         {
@@ -484,12 +484,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.4393063583815029,
-          "median_gain_robust_vs_linear": -0.08394366197183101,
+          "median_gain_robust_vs_linear": -0.08595284872298614,
           "median_stop": {
-            "linear": 887.5,
+            "linear": 1018.0,
             "oracle_lin": 519.0,
             "oracle_poly": 291.0,
-            "robust": 962.0
+            "robust": 1105.5
           }
         },
         {
@@ -501,12 +501,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.4088050314465409,
-          "median_gain_robust_vs_linear": -0.0943877551020409,
+          "median_gain_robust_vs_linear": -0.11784511784511786,
           "median_stop": {
-            "linear": 392.0,
+            "linear": 445.5,
             "oracle_lin": 238.5,
             "oracle_poly": 141.0,
-            "robust": 429.0
+            "robust": 498.0
           }
         }
       ],
@@ -514,19 +514,19 @@
       "g2": 0.5894697887884013,
       "law": "ziln_p60",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.9999999999525824,
-      "median_radius": 0.7733262811364714,
+      "median_g2_bar": 0.9999999999800678,
+      "median_radius": 1.0027971455367959,
       "n_cal": 10000,
       "null": {
         "linear": {
-          "cp_upper": 0.007735244718479458,
-          "crossings": 3,
-          "rate": 0.003
-        },
-        "robust": {
           "cp_upper": 0.004734993575499777,
           "crossings": 1,
           "rate": 0.001
+        },
+        "robust": {
+          "cp_upper": 0.002991249545095295,
+          "crossings": 0,
+          "rate": 0.0
         }
       },
       "region_misses": 0,
@@ -543,12 +543,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.439873417721519,
-          "median_gain_robust_vs_linear": -0.05346534653465351,
+          "median_gain_robust_vs_linear": -0.03926905132192848,
           "median_stop": {
-            "linear": 1262.5,
+            "linear": 1286.0,
             "oracle_lin": 1106.0,
             "oracle_poly": 619.5,
-            "robust": 1330.0
+            "robust": 1336.5
           }
         },
         {
@@ -560,12 +560,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.45887850467289715,
-          "median_gain_robust_vs_linear": -0.017676767676767735,
+          "median_gain_robust_vs_linear": -0.01755852842809369,
           "median_stop": {
-            "linear": 594.0,
+            "linear": 598.0,
             "oracle_lin": 535.0,
             "oracle_poly": 289.5,
-            "robust": 604.5
+            "robust": 608.5
           }
         },
         {
@@ -577,12 +577,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.41025641025641024,
-          "median_gain_robust_vs_linear": -0.03244274809160297,
+          "median_gain_robust_vs_linear": -0.022556390977443552,
           "median_stop": {
-            "linear": 262.0,
+            "linear": 266.0,
             "oracle_lin": 234.0,
             "oracle_poly": 138.0,
-            "robust": 270.5
+            "robust": 272.0
           }
         }
       ],
@@ -590,8 +590,8 @@
       "g2": 0.5894697887884013,
       "law": "ziln_p60",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.9891517836238617,
-      "median_radius": 0.12873441128818525,
+      "median_g2_bar": 0.9999999990843483,
+      "median_radius": 0.14080248746298873,
       "n_cal": 100000,
       "null": {
         "linear": {
@@ -600,9 +600,9 @@
           "rate": 0.017
         },
         "robust": {
-          "cp_upper": 0.0230035488509501,
-          "crossings": 15,
-          "rate": 0.015
+          "cp_upper": 0.02420022583124934,
+          "crossings": 16,
+          "rate": 0.016
         }
       },
       "region_misses": 0,
@@ -619,12 +619,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.4394006170118995,
-          "median_gain_robust_vs_linear": 0.06912838127951915,
+          "median_gain_robust_vs_linear": 0.06569343065693434,
           "median_stop": {
             "linear": 1164.5,
             "oracle_lin": 1134.5,
             "oracle_poly": 636.0,
-            "robust": 1084.0
+            "robust": 1088.0
           }
         },
         {
@@ -636,12 +636,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.42471042471042475,
-          "median_gain_robust_vs_linear": 0.1207865168539326,
+          "median_gain_robust_vs_linear": 0.11577964519140993,
           "median_stop": {
-            "linear": 534.0,
+            "linear": 535.5,
             "oracle_lin": 518.0,
             "oracle_poly": 298.0,
-            "robust": 469.5
+            "robust": 473.5
           }
         },
         {
@@ -653,12 +653,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.4012474012474012,
-          "median_gain_robust_vs_linear": 0.12273641851106643,
+          "median_gain_robust_vs_linear": 0.12048192771084343,
           "median_stop": {
-            "linear": 248.5,
+            "linear": 249.0,
             "oracle_lin": 240.5,
             "oracle_poly": 144.0,
-            "robust": 218.0
+            "robust": 219.0
           }
         }
       ],
@@ -666,8 +666,8 @@
       "g2": 0.5894697887884013,
       "law": "ziln_p60",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.8155895518695588,
-      "median_radius": 0.026363788563424195,
+      "median_g2_bar": 0.8230006894538733,
+      "median_radius": 0.026896877152632198,
       "n_cal": 1000000,
       "null": {
         "linear": {
@@ -706,10 +706,10 @@
         {
           "delta": 0.12,
           "detection_fraction": {
-            "linear": 0.086,
+            "linear": 0.002,
             "oracle_lin": 1.0,
             "oracle_poly": 1.0,
-            "robust": 0.007
+            "robust": 0.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.37359098228663445,
           "median_gain_robust_vs_linear": 0.0,
@@ -723,18 +723,18 @@
         {
           "delta": 0.18,
           "detection_fraction": {
-            "linear": 1.0,
+            "linear": 0.996,
             "oracle_lin": 1.0,
             "oracle_poly": 1.0,
-            "robust": 0.999
+            "robust": 0.848
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3734513274336283,
-          "median_gain_robust_vs_linear": -0.20867414875404222,
+          "median_gain_robust_vs_linear": -0.20558827557868775,
           "median_stop": {
-            "linear": 5257.0,
+            "linear": 7301.0,
             "oracle_lin": 282.5,
             "oracle_poly": 177.0,
-            "robust": 6354.0
+            "robust": 8802.0
           }
         }
       ],
@@ -742,8 +742,8 @@
       "g2": 0.650506743463763,
       "law": "ziln_p25",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.9999999999999823,
-      "median_radius": 11.224476155887341,
+      "median_g2_bar": 0.9999999999999931,
+      "median_radius": 15.175548135334232,
       "n_cal": 10000,
       "null": {
         "linear": {
@@ -765,18 +765,18 @@
         {
           "delta": 0.08,
           "detection_fraction": {
-            "linear": 0.983,
+            "linear": 0.968,
             "oracle_lin": 1.0,
             "oracle_poly": 1.0,
-            "robust": 0.953
+            "robust": 0.905
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.35279805352798055,
-          "median_gain_robust_vs_linear": -0.1758072289156627,
+          "median_gain_robust_vs_linear": -0.1936218678815489,
           "median_stop": {
-            "linear": 5187.5,
+            "linear": 5707.0,
             "oracle_lin": 1233.0,
             "oracle_poly": 798.0,
-            "robust": 6099.5
+            "robust": 6812.0
           }
         },
         {
@@ -788,12 +788,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3736170212765958,
-          "median_gain_robust_vs_linear": -0.15755839576906117,
+          "median_gain_robust_vs_linear": -0.16485507246376807,
           "median_stop": {
-            "linear": 2269.0,
+            "linear": 2484.0,
             "oracle_lin": 587.5,
             "oracle_poly": 368.0,
-            "robust": 2626.5
+            "robust": 2893.5
           }
         },
         {
@@ -805,12 +805,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3840579710144928,
-          "median_gain_robust_vs_linear": -0.1434867776689519,
+          "median_gain_robust_vs_linear": -0.14432529043789089,
           "median_stop": {
-            "linear": 1021.0,
+            "linear": 1119.0,
             "oracle_lin": 276.0,
             "oracle_poly": 170.0,
-            "robust": 1167.5
+            "robust": 1280.5
           }
         }
       ],
@@ -818,8 +818,8 @@
       "g2": 0.650506743463763,
       "law": "ziln_p25",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.9999999999993645,
-      "median_radius": 2.2012917759720168,
+      "median_g2_bar": 0.9999999999995466,
+      "median_radius": 2.4023712693719395,
       "n_cal": 100000,
       "null": {
         "linear": {
@@ -847,12 +847,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3695060287825749,
-          "median_gain_robust_vs_linear": -0.07269914926527465,
+          "median_gain_robust_vs_linear": -0.07921548650025478,
           "median_stop": {
-            "linear": 1939.5,
+            "linear": 1963.0,
             "oracle_lin": 1285.5,
             "oracle_poly": 810.5,
-            "robust": 2080.5
+            "robust": 2118.5
           }
         },
         {
@@ -864,12 +864,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.3894557823129252,
-          "median_gain_robust_vs_linear": -0.06313993174061427,
+          "median_gain_robust_vs_linear": -0.06595264937993228,
           "median_stop": {
-            "linear": 879.0,
+            "linear": 887.0,
             "oracle_lin": 588.0,
             "oracle_poly": 359.0,
-            "robust": 934.5
+            "robust": 945.5
           }
         },
         {
@@ -881,12 +881,12 @@
             "robust": 1.0
           },
           "median_gain_oracle_poly_vs_oracle_lin": 0.34572490706319703,
-          "median_gain_robust_vs_linear": -0.07019704433497531,
+          "median_gain_robust_vs_linear": -0.07560975609756104,
           "median_stop": {
-            "linear": 406.0,
+            "linear": 410.0,
             "oracle_lin": 269.0,
             "oracle_poly": 176.0,
-            "robust": 434.5
+            "robust": 441.0
           }
         }
       ],
@@ -894,14 +894,14 @@
       "g2": 0.650506743463763,
       "law": "ziln_p25",
       "linear_bound_misses": 0,
-      "median_g2_bar": 0.9999999999855995,
-      "median_radius": 0.5875258722192241,
+      "median_g2_bar": 0.9999999999870917,
+      "median_radius": 0.6092901261935351,
       "n_cal": 1000000,
       "null": {
         "linear": {
-          "cp_upper": 0.010484076911415651,
-          "crossings": 5,
-          "rate": 0.005
+          "cp_upper": 0.007735244718479458,
+          "crossings": 3,
+          "rate": 0.003
         },
         "robust": {
           "cp_upper": 0.007735244718479458,
@@ -948,6 +948,7 @@
     },
     "alpha_e": 0.04,
     "alpha_total": 0.05,
+    "amendment_2026-10-31": "Correction of the calibration step after a proof audit: the bound on |d| = |c - mu_ref| was computed from the second split, which also gives the crude fourth-moment bound with the proxy K8' that depends on it, so that bound had no fixed variance proxy. It is now a Catoni interval for mu_ref on the first split, fixed before the second split is used. No parameter changed; the run was repeated with the same seed and the same draws, and the earlier output is in git history (commit 5aefe0f).",
     "calibration_delta": 0.01,
     "calibration_sizes": [
       10000,
@@ -970,9 +971,10 @@
     },
     "eighth_moment_envelope_factor": 2.0,
     "expected_cost": "Closed-form exploration predicted a loss of 1.5-2.5 percentage points of time gain at N=1e6 and 4-5 points at N=1e5 relative to a known-location reference. Reported, not gated.",
-    "frozen_at": "2026-10-30T22:57:00+02:00",
+    "frozen_at": "2026-10-30T22:56:54+02:00",
     "location_fraction": 0.02,
     "note_fractions": "location_fraction chosen in a closed-form exploration (0.02, 0.05, 0.10 at N=1e5..1e7) before this file was frozen; 0.02 was best or tied in every cell.",
+    "note_frozen_at": "Corrected after the run from a rounded 22:57:00 to the file modification time; the formal run started at 22:56:56 and ended at 23:08:40. No other field changed.",
     "note_pairing": "Same seed and the same random-number consumption as CAL-1/CAL-3, so every replication sees the same reference errors and the same streams; only the calibration step differs.",
     "note_reference": "The reference record is eps + 3.7 and the analyst does not know 3.7. The region is invariant to this value up to rounding.",
     "output_13": "cal_unknown_center_4.json",

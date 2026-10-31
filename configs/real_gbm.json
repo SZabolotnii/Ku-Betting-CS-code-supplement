@@ -2,6 +2,7 @@
   "protocol": "Real reference record: Fermi GBM photon energy channels (REAL)",
   "status": "frozen before the first formal run (confirmation day); specified after CAL-1..CAL-4 and not part of them",
   "frozen_at": "2026-10-30T23:38:30+02:00",
+  "amendment_2026-10-31": "Same correction of the calibration step as in calibration_unknown_center.json (bound on |d| now from the first split). No parameter changed; the confirmation-day run was repeated on the same files, and the earlier output is in the version history of the repository. Crossing counts were unchanged on both days; development_result below is the pre-amendment record, and the repeated development run gives a median gain of 31.1% at shift 0.12.",
   "detector": "n0",
   "development_day": "2024-03-15",
   "development_hours": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],

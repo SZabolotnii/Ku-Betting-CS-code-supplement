@@ -234,11 +234,12 @@ def _shifted_crude(y: np.ndarray, k8: float, deltas: dict, location_fraction: fl
     first, second, third = _three_way(y, location_fraction, crude_fraction)
     c = float(np.mean(first))
     z2 = second - c
-    # Var(z) = sigma^2 <= (E eps^8)^(1/4) by Lyapunov.
+    # |d| = |c - mu_ref| is bounded from the first split alone, so K8' is fixed
+    # before the second split is used.  Var(y) = sigma^2 <= (E eps^8)^(1/4).
     half = deltas["shift"] / 2.0
     v1 = k8 ** 0.25
-    d_hi = max(abs(catoni_bound(z2, v1, half, "lower")),
-               abs(catoni_bound(z2, v1, half, "upper")))
+    d_hi = max(abs(c - catoni_bound(first, v1, half, "lower")),
+               abs(c - catoni_bound(first, v1, half, "upper")))
     # Minkowski: (E z^8)^(1/8) <= (E eps^8)^(1/8) + |d|.
     k8_shift = (k8 ** 0.125 + d_hi) ** 8
     crude = catoni_bound(z2**4, k8_shift, deltas["crude_mu4"], "upper")

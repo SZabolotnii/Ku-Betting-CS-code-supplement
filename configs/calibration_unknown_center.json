@@ -3,6 +3,7 @@
   "status": "frozen before the first formal run; specified after CAL-1..CAL-3 and not part of them",
   "frozen_at": "2026-10-30T22:56:54+02:00",
   "note_frozen_at": "Corrected after the run from a rounded 22:57:00 to the file modification time; the formal run started at 22:56:56 and ended at 23:08:40. No other field changed.",
+  "amendment_2026-10-31": "Correction of the calibration step after a proof audit: the bound on |d| = |c - mu_ref| was computed from the second split, which also gives the crude fourth-moment bound with the proxy K8' that depends on it, so that bound had no fixed variance proxy. It is now a Catoni interval for mu_ref on the first split, fixed before the second split is used. No parameter changed; the run was repeated with the same seed and the same draws, and the earlier output is in the version history of the repository.",
   "seed": 20261030,
   "note_pairing": "Same seed and the same random-number consumption as CAL-1/CAL-3, so every replication sees the same reference errors and the same streams; only the calibration step differs.",
   "reference": "unknown_location",
