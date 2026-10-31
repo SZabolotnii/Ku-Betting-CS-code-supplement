@@ -52,7 +52,7 @@ NB in this mathlib the real inner-product notation is `⟪x, y⟫` — scoped in
       lake build DescriptorBasis.BettingCS)
     rm ../../DSGE/papers/dsge-spectral/lean/DescriptorBasis/BettingCS.lean
 
-Source of truth: `Ku_Science/Ku_Betting_CS/BettingCS.lean` (this file).
+Source of truth: `Ku_Betting_CS/BettingCS.lean` (this file).
 -/
 
 open scoped RealInnerProductSpace
