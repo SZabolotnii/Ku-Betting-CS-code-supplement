@@ -8,6 +8,8 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
+# TrueType instead of Type 3 fonts: journal portals reject Type 3 in figures.
+plt.rcParams["pdf.fonttype"] = 42
 
 ROOT = Path(__file__).resolve().parents[1]
 MARKERS = {"gamma2": "o", "lognormal04": "s", "ziln_p60": "^"}
